@@ -1,0 +1,77 @@
+With smoothing
+
+Sentence: mark antony , heere take you caesars body : you shall not come to them poet .
+Sentence Bi-grams:
+        'mark', 'antony': 14
+        'antony', ',': 26
+        ',', 'heere': 6
+        'heere', 'take': 2
+        'take', 'you': 2
+        'you', 'caesars': 2
+        'caesars', 'body': 3
+        'body', ':': 2
+        ':', 'you': 14
+        'you', 'shall': 17
+        'shall', 'not': 11
+        'not', 'come': 8
+        'come', 'to': 16
+        'to', 'them': 3
+        'them', 'poet': 1
+        'poet', '.': 5
+Sentence Bi-gram probabilities
+        'mark', 'antony': 0.004596191726854892
+        'antony', ',': 0.008368200836820083
+        ',', 'heere': 0.001145912910618793
+        'heere', 'take': 0.0006470397929472663
+        'take', 'you': 0.0006546644844517185
+        'you', 'caesars': 0.0005842827928717499
+        'caesars', 'body': 0.000977198697068404
+        'body', ':': 0.0006568144499178982
+        ':', 'you': 0.003964882469555367
+        'you', 'shall': 0.004966403739409875
+        'shall', 'not': 0.003484320557491289
+        'not', 'come': 0.002432350258437215
+        'come', 'to': 0.0051513200257566
+        'to', 'them': 0.0008625646923519264
+        'them', 'poet': 0.0003234152652005175
+        'poet', '.': 0.001644736842105263
+The probability of the sentence is: 1.435105035177352e-48
+
+Sentence: no , sir , there are no comets seen , the heauens speede thee in thine enterprize .
+Sentence Bi-grams:
+        'no', ',': 10
+        ',', 'sir': 7
+        'sir', ',': 20
+        ',', 'there': 15
+        'there', 'are': 4
+        'are', 'no': 3
+        'no', 'comets': 2
+        'comets', 'seen': 2
+        'seen', ',': 2
+        ',', 'the': 41
+        'the', 'heauens': 6
+        'heauens', 'speede': 2
+        'speede', 'thee': 2
+        'thee', 'in': 2
+        'in', 'thine': 3
+        'thine', 'enterprize': 2
+        'enterprize', '.': 2
+Sentence Bi-gram probabilities
+        'no', ',': 0.0032
+        ',', 'sir': 0.001336898395721925
+        'sir', ',': 0.006546644844517185
+        ',', 'there': 0.0028647822765469825
+        'there', 'are': 0.0012961762799740765
+        'are', 'no': 0.0009551098376313276
+        'no', 'comets': 0.00064
+        'comets', 'seen': 0.0006594131223211342
+        'seen', ',': 0.0006594131223211342
+        ',', 'the': 0.00783040488922842
+        'the', 'heauens': 0.001661589587371919
+        'heauens', 'speede': 0.0006585446163977609
+        'speede', 'thee': 0.0006591957811470006
+        'thee', 'in': 0.0006478781988986071
+        'in', 'thine': 0.00092109303039607
+        'thine', 'enterprize': 0.0006587615283267457
+        'enterprize', '.': 0.0006581112207963146
+The probability of the sentence is: 1.3154053297964652e-52

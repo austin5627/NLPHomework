@@ -1,0 +1,7 @@
+# Test sentence one
+the planet jupiter and its moons are in effect a mini solar system .
+['conjunction', 'determiner', 'noun', 'noun', 'noun', 'pronoun', 'verb', 'noun', 'preposition', 'adverb', 'determiner', 'noun', 'noun', 'punct']
+
+# Test sentence two
+computers process programs accurately .
+['adjective', 'noun', 'noun', 'noun', 'punct']

@@ -1,0 +1,38 @@
+No smoothing
+
+Sentence: mark antony , heere take you caesars body : you shall not come to them poet .
+Sentence Bi-grams:
+        'mark', 'antony': 13
+        'antony', ',': 25
+        ',', 'heere': 5
+        'heere', 'take': 1
+        'take', 'you': 1
+        'you', 'caesars': 1
+        'caesars', 'body': 2
+        'body', ':': 1
+        ':', 'you': 13
+        'you', 'shall': 16
+        'shall', 'not': 10
+        'not', 'come': 7
+        'come', 'to': 15
+        'to', 'them': 2
+        'them', 'poet': 0
+        'poet', '.': 4
+Sentence Bi-gram probabilities
+        'mark', 'antony': 0.9285714285714286
+        'antony', ',': 0.3333333333333333
+        ',', 'heere': 0.002268602540834846
+        'heere', 'take': 0.01694915254237288
+        'take', 'you': 0.043478260869565216
+        'you', 'caesars': 0.0025575447570332483
+        'caesars', 'body': 0.05263157894736842
+        'body', ':': 0.07692307692307693
+        ':', 'you': 0.026052104208416832
+        'you', 'shall': 0.04092071611253197
+        'shall', 'not': 0.08
+        'not', 'come': 0.027237354085603113
+        'come', 'to': 0.20270270270270271
+        'to', 'them': 0.004484304932735426
+        'them', 'poet': 0.0
+        'poet', '.': 0.5
+The probability of the sentence is: 0.0

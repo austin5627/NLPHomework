@@ -1,0 +1,43 @@
+Training data:
+count      8000
+unique        5
+top       Other
+freq       4495
+
+Class distribution:
+Class                 count    percentage
+-----------------------------------------
+Other                 4495     0.561875
+Cause-Effect          1003     0.125375
+Component-Whole        941     0.117625
+Entity-Destination     845     0.105625
+Entity-Origin          716     0.089500
+-----------------------------------------
+
+Test data:
+count      2717
+unique        5
+top       Other
+freq       1527
+
+Class distribution:
+Class                 count    percentage
+-----------------------------------------
+Other                 1527     0.562017
+Cause-Effect           328     0.120721
+Component-Whole        312     0.114833
+Entity-Destination     292     0.107471
+Entity-Origin          258     0.094958
+
+Accuracy: 0.7619
+Loss: 0.8755
+
+Confusion Matrix
+                                                            Predicted Label
+                               Cause-Effect Component-Whole Entity-Destination Entity-Origin Other
+            Cause-Effect       269           13               0                 21             25
+            Component-Whole      4          189               4                  7            108
+True Label  Entity-Destination   0            2             246                  1             43
+            Entity-Origin        5            8               6                169             70
+            Other               26          150              79                 75           1197
+

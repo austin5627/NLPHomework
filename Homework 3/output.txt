@@ -1,0 +1,5 @@
+
+the planet jupiter and its moons are in effect a mini solar system .
+['determiner', 'noun', 'noun', 'conjunction', 'pronoun', 'noun', 'verb', 'preposition', 'verb', 'determiner', 'adjective', 'adjective', 'noun', 'punct']
+computers process programs accurately .
+['noun', 'noun', 'noun', 'adverb', 'punct']
