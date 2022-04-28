@@ -127,16 +127,16 @@ def main():
         # tf.tensorboard.TensorBoard(log_dir='./logs')
     ]
 
-    # model.fit(x_train, y_train, epochs=20, batch_size=128, validation_split=0.2,
-    #           callbacks=callbacks, class_weight=class_weights)
+    model.fit(x_train, y_train, epochs=20, batch_size=128, validation_split=0.2,
+              callbacks=callbacks, class_weight=class_weights)
 
     # Save Model
-    # model.save('model.h5')
+    model.save('model.h5')
 
     # Load Model
     model.load_weights('model.h5')
 
-    # model.evaluate(x_test, y_test)
+    model.evaluate(x_test, y_test)
 
     y_pred = model.predict(x_test)
     y_pred = pd.DataFrame(y_pred, columns=ALLOWED_RELATIONS)
@@ -156,7 +156,6 @@ def main():
                                           (combined_data['label'] != 'Other') &
                                           (combined_data['predicted_label'] != 'Other')]
     random_samples = incorrect_predictions.sample(n=50)
-    pd.set_option('display.max_colwidth', None)
     random_samples.to_csv('incorrect_predictions.csv', index=False)
 
 

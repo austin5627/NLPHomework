@@ -29,7 +29,11 @@ Component-Whole        312     0.114833
 Entity-Destination     292     0.107471
 Entity-Origin          258     0.094958
 
-Accuracy: 0.7619
+Validation data split 80/20 from training data
+
+Training accuracy: 0.9337
+Validation accuracy: 0.5944
+Test accuracy: 0.7619
 Loss: 0.8755
 
 Confusion Matrix
